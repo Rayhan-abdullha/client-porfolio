@@ -13,7 +13,7 @@ const ContactMe = () => {
                             <input key={item.id} className='rounded-xl border border-gray-400 p-5 outline-none' type={item.type} placeholder={item.label} />
                         ))
                     }
-                    <button className='rounded-md py-3 px-5 font-medium text-white text-lg bg-[#D55145] w-[200px]' type='submit'>Submit</button>
+                    <button className='rounded-md py-3 px-5 font-medium text-white text-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 w-[200px]' type='submit'>Submit</button>
                 </form>
             </div>
         </div>

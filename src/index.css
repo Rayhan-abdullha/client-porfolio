@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-btn-bg {
+  background: linear-gradient(
+      95deg,
+      #059dff 15%,
+      #6549d5 45%,
+      #e33fa1 75%,
+      #fb5343 100%
+    )
+    95% / 200% 100%;
+}
+.my-color {
+  background: linear-gradient(
+      95deg,
+      #059dff 15%,
+      #6549d5 45%,
+      #e33fa1 75%,
+      #fb5343 100%
+    )
+    95% / 200% 100%;
+  /* Use the background-clip property to apply the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Set the text color to transparent to allow the gradient to show through */
+  color: transparent;
+}
