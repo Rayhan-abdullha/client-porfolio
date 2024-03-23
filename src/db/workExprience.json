@@ -1,28 +1,29 @@
 {
     "label": "My Work Experience",
-    "workExprience": [
+    "skills": [
         {
             "id": 1,
             "title": "Product Designer",
-            "progress": "90%"
+            "progress": "90"
         },
         {
             "id": 2,
             "title": "Web Development",
-            "progress": "70%"
+            "progress": "70"
         },
         {
             "id": 3,
             "title": "App Development",
-            "progress": "60%"
+            "progress": "60"
         },
         {
             "id": 4,
             "title": "Application Developement",
-            "progress": "45%"
+            "progress": "45"
         }
     ],
     "projectCompleted": {
+        "logo": "https://rainbowit.net/html/doob/assets/images/about/about-logo.png",
         "count": "I Have Completed 50+ Project",
         "label": "Have More Projects Complete in My Carreer Life."
     },

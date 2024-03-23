@@ -2,7 +2,7 @@ import { contactForm } from '../db/contactMe.json'
 const ContactMe = () => {
     return (
         <div className='container mx-auto px-4 py-16'>
-            <h2 className="text-3xl font-medium border-b border-gray-20 pb-5 mb-8">Contact With Me.</h2>
+            <h2 className="text-center md:text-start text-3xl font-medium border-b border-gray-20 pb-5 mb-8">Contact With Me.</h2>
             <div className="my-16 flex flex-col md:flex-row gap-5">
                 <div className='md:w-1/2'>
                     <img className='rounded-md' src="https://rainbowit.net/html/doob/assets/images/about/contact-image.jpg" alt="notfound" />

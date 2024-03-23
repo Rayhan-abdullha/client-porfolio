@@ -2,11 +2,11 @@ import priceData from '../db/pricing.json'
 const Price = () => {
     return (
         <div className="container mx-auto px-4 py-16">
-            <h2 className="text-3xl font-medium border-b border-gray-20 pb-5 mb-8">My Pricing Plan.</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 text-center">
+            <h2 className="text-center md:text-start text-3xl font-medium border-b border-gray-20 pb-5 mb-12">My Pricing Plan.</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center h-auto lg:h-[700px]">
                 {
                     priceData.map((item, index: number) => (
-                        <div className='border border-gray-200 px-5 py-10' key={item.id}>
+                        <div className={`border-[2px] border-gray-200 px-5 py-10 ${index === 1 ? "bg-[#D8D8D8] md:flex md:flex-col md:justify-center md:items-center" : "md:h-fit md:self-center"} rounded-md`} key={item.id}>
                             <h2 className="text-xl font-semibold">{item.title}</h2>
                             <div className='my-4'>
                                 <sup className="text-2xl inline-block">$</sup>

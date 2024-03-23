@@ -27,3 +27,7 @@
   /* Set the text color to transparent to allow the gradient to show through */
   color: transparent;
 }
+
+.my-bg-1 {
+  background: linear-gradient(45deg, #8bc1e5, #87b5c3);
+}
