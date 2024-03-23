@@ -1,0 +1,39 @@
+{
+    "contactForm": [
+        {
+            "id": 1,
+            "label": "Your name",
+            "type": "text"
+        },
+        {
+            "id": 1,
+            "label": "Your Number",
+            "type": "number"
+        },
+        {
+            "id": 1,
+            "label": "Your Email",
+            "type": "email"
+
+        },
+        {
+            "id": 1,
+            "label": "Your Message",
+            "type": "text"
+        }
+    ],
+    "socialLinks": [
+        {
+            "id": 1,
+            "url": "https://www.facebook.com/"
+        },
+        {
+            "id": 1,
+            "url": "https://www.youtube.com/"
+        },
+        {
+            "id": 1,
+            "url": "https://www.github.com/"
+        }
+    ]
+}

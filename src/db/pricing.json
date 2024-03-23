@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "Basic",
+        "price": 29,
+        "currency": "USD Per Month",
+        "description": [
+            "5 PPC Campaigns",
+            "Digital Marketing",
+            "Marketing Agency",
+            "Seo Friendly",
+            "UI/UX designs"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Business",
+        "price": 50,
+        "currency": "USD Per Month",
+        "description": [
+            "5 PPC Campaigns",
+            "Keep 100% Royalties",
+            "App Development",
+            "Seo Friendly",
+            "UI/UX designs"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Advanced",
+        "price": 100,
+        "currency": "USD Per Month",
+        "description": [
+            "50 PPC Campaigns",
+            "SEO Marketing",
+            "Marketing Agency",
+            "Seo Friendly",
+            "Application Manage"
+        ]
+    }
+]

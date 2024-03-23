@@ -1,0 +1,17 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "item": "Privacy Policy"
+        },
+        {
+            "id": 2,
+            "item": "Terms And Condition"
+        },
+        {
+            "id": 3,
+            "item": "Contact Us"
+        }
+    ],
+    "copyright": "Copyright All rights reserved © 2022 Doob React Template."
+}

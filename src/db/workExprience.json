@@ -1,0 +1,51 @@
+{
+    "label": "My Work Experience",
+    "workExprience": [
+        {
+            "id": 1,
+            "title": "Product Designer",
+            "progress": "90%"
+        },
+        {
+            "id": 1,
+            "title": "Web Development",
+            "progress": "70%"
+        },
+        {
+            "id": 1,
+            "title": "App Development",
+            "progress": "60%"
+        },
+        {
+            "id": 1,
+            "title": "Application Developement",
+            "progress": "45%"
+        }
+    ],
+    "projectCompleted": {
+        "count": "I Have Completed 50+ Project",
+        "label": "Have More Projects Complete in My Carreer Life."
+    },
+
+    "recentWork": {
+        "label": "My Recent Work",
+        "list": [{
+            "id": 1,
+            "title": "Awarded Design",
+            "subtitle": "There are many variations variats.",
+            "url": "https://rainbowit.net/html/doob/assets/images/services/galery-image-01.png"
+        },
+        {
+            "id": 2,
+            "title": "Design & Creative",
+            "subtitle": "Variations There are many of pass.",
+            "url": "https://rainbowit.net/html/doob/assets/images/services/galery-image-02.png"
+        },
+        {
+            "id": 2,
+            "title": "App Development",
+            "subtitle": "Passages there are many variatin.",
+            "url": "https://rainbowit.net/html/doob/assets/images/services/galery-image-03.png"
+        }]
+    }
+}
