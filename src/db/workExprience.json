@@ -7,17 +7,17 @@
             "progress": "90%"
         },
         {
-            "id": 1,
+            "id": 2,
             "title": "Web Development",
             "progress": "70%"
         },
         {
-            "id": 1,
+            "id": 3,
             "title": "App Development",
             "progress": "60%"
         },
         {
-            "id": 1,
+            "id": 4,
             "title": "Application Developement",
             "progress": "45%"
         }
@@ -42,7 +42,7 @@
             "url": "https://rainbowit.net/html/doob/assets/images/services/galery-image-02.png"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "App Development",
             "subtitle": "Passages there are many variatin.",
             "url": "https://rainbowit.net/html/doob/assets/images/services/galery-image-03.png"

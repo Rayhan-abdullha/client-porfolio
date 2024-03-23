@@ -6,7 +6,7 @@ const MyWorks = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {
                     recentWork.list.map(item => (
-                        <div className='bg-[#F5F8FA] rounded-lg p-7 flex flex-col'>
+                        <div key={item.id} className='bg-[#F5F8FA] rounded-lg p-7 flex flex-col'>
                             <h3 className='text-2xl font-medium mb-2'>{item.title}</h3>
                             <p className='my-5 text-[#616161]'>{item.subtitle}</p>
                             <div className='w-full'>

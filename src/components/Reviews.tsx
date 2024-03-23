@@ -6,7 +6,7 @@ const Reviews = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {
                     reviews.map(item => (
-                        <div className='bg-[#F5F8FA] rounded-lg p-5 flex justify-center items-center flex-col'>
+                        <div className='bg-[#F5F8FA] rounded-lg p-5 flex justify-center items-center flex-col' key={item.id}>
                             <div className='w-[200px]'>
                                 <img className='w-full rounded-full border-[5px] border-[#FF6172]' src={item.url} alt="notfound" />
                             </div>

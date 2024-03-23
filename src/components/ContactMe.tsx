@@ -10,7 +10,7 @@ const ContactMe = () => {
                 <form className='md:w-1/2 flex flex-col gap-5 mt-10'>
                     {
                         contactForm.map(item => (
-                            <input className='rounded-xl border border-gray-400 p-5 outline-none' type={item.type} placeholder={item.label} />
+                            <input key={item.id} className='rounded-xl border border-gray-400 p-5 outline-none' type={item.type} placeholder={item.label} />
                         ))
                     }
                     <button className='rounded-md py-3 px-5 font-medium text-white text-lg bg-[#D55145] w-[200px]' type='submit'>Submit</button>
