@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark {
+  background-color: #060606;
+}
+
 .my-btn-bg {
   background: linear-gradient(
       95deg,
@@ -30,4 +34,25 @@
 
 .my-bg-1 {
   background: linear-gradient(45deg, #8bc1e5, #87b5c3);
+}
+
+.overlay {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* z-index: 90; */
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+h2 {
+}
+
+p {
 }
