@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #f5f8fa;
+}
+
+.container {
+  max-width: 1320px;
+}
+
 .dark {
   background-color: #060606;
 }
@@ -25,17 +33,13 @@
       #fb5343 100%
     )
     95% / 200% 100%;
-  /* Use the background-clip property to apply the gradient to the text */
   -webkit-background-clip: text;
   background-clip: text;
-  /* Set the text color to transparent to allow the gradient to show through */
   color: transparent;
 }
-
 .my-bg-1 {
   background: linear-gradient(45deg, #8bc1e5, #87b5c3);
 }
-
 .overlay {
   content: "";
   position: fixed;
@@ -50,9 +54,10 @@
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
 }
-
-h2 {
-}
-
-p {
+.timeline-dot:before {
+  content: "";
+  width: 100%;
+  top: 63px;
+  height: 6px;
+  left: calc(50% - -12px);
 }

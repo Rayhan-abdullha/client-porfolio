@@ -5,9 +5,9 @@ import { useTheme } from '../context/ThemeContext'
 function Expriences() {
     const { isDarkMode } = useTheme()
     return (
-        <div className='px-4 max-w-[800px] mx-auto py-[60px] md:py-[120px]'>
-            <div className={`flex flex-col items-center md:flex-row md:items-start gap-5 p-10 bg-gradient-to-br ${isDarkMode ? 'to-[#882b2b36] from-[#24c1d740]' : 'from-[#cfefff] to-[#fff5f5]'}`}>
-                <img className='self-start w-1/3' src={projectCompleted.logo} alt="notfound" />
+        <div className='px-5 sm:px-12 max-w-[900px] mx-auto py-[60px] md:py-[120px]'>
+            <div className={`flex flex-col items-center md:flex-row md:items-start gap-5 py-10 px-14 bg-gradient-to-br ${isDarkMode ? 'from-[#0F1315] to-[#101010]' : 'from-[#E9F7FD] to-[#F5F8FA]'}`}>
+                <img className='self-start w-[200px] sm:w-1/4' src={projectCompleted.logo} alt="notfound" />
                 <div className='w-full md:text-start'>
                     <p className='my-color text-[18px] font-medium'>{projectCompleted.count}</p>
                     <h3 className={`my-7 font-bold text-3xl md:text-4xl ${isDarkMode ? 'text-white' : 'text-black'}`}>{projectCompleted.label}</h3>
@@ -19,7 +19,7 @@ function Expriences() {
             <div className='flex flex-col gap-10'>
                 {
                     skills.map(skill => (
-                        <SkillProgress key={skill.id} skill={skill} />
+                        <SkillProgress key={skill.id} title={skill.title} progress={skill.progress} color={skill.color} />
                     ))
                 }
             </div>

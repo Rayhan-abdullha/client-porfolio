@@ -31,7 +31,7 @@ const Navbar = () => {
         <>
             <div className={`overlay ${showNav && innerWidth <= 1025 ? 'block' : 'hidden'}`}></div>
             <div className="bg-[#0F0F11] py-[10px] border-b border-gray-900 h-[80px] flex items-center sticky top-0 z-10">
-                <div className='container mx-auto px-3 flex items-center gap-2 justify-between'>
+                <div className='container mx-auto px-5 sm:px-12 flex items-center gap-2 justify-between'>
                     <div className='flex gap-10 items-center'>
                         <div className="logo">
                             <img className='w-[120px]' src={logo.url} alt="notfound-logo" />
