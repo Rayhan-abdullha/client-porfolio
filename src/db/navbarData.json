@@ -6,32 +6,38 @@
     {
         "id": 1,
         "item": "home",
-        "submenu": ["home-1", "home-2", "home-3"]
+        "submenu": ["home-1", "home-2", "home-3"],
+        "ref": "/"
     },
     {
         "id": 2,
         "item": "about",
-        "submenu": ["about-1", "about-2", "about-3"]
+        "submenu": ["about-1", "about-2", "about-3"],
+        "ref": "/about"
     },
     {
         "id": 3,
         "item": "element",
-        "submenu": ["element-1", "element-2", "element-3"]
+        "submenu": ["element-1", "element-2", "element-3"],
+        "ref": "/element"
     },
     {
         "id": 4,
         "item": "blog",
-        "submenu": ["blog-1", "blog-2", "blog-3"]
+        "submenu": ["blog-1", "blog-2", "blog-3"],
+        "ref": "/blog"
     },
     {
         "id": 5,
         "item": "portfolio",
-        "submenu": ["portfolio-1", "portfolio-2", "portfolio-3"]
+        "submenu": ["portfolio-1", "portfolio-2", "portfolio-3"],
+        "ref": "/portfolio"
     },
     {
         "id": 6,
         "item": "contact",
-        "submenu": []
+        "submenu": [],
+        "ref": "/contact"
     }
 ]
 }

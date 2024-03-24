@@ -35,5 +35,4 @@ const Price = () => {
         </div>
     )
 }
-
 export default Price

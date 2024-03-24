@@ -5,7 +5,7 @@ const Patner = () => {
             {
                 patner.map(item => (
                     <div className="w-full flex justify-center items-center" key={item.id}>
-                        <img className='w-[160px]' src={item.url} alt="notfound" />
+                        <img className='w-[170px] md:w-[200px]' src={item.url} alt="notfound" />
                     </div>
                 ))
             }
