@@ -3,7 +3,7 @@ import timeline from '../db/timeline.json'
 const TimelineSection = () => {
   const { isDarkMode } = useTheme()
   return (
-    <div className={`${isDarkMode ? 'bg-[#0F0F11]' : 'bg-[#F5F8FA]'} rounded-md p-10 container mx-auto px-5 grid grid-rows-1 md:grid-cols-4 gap-8 md:gap-0`}>
+    <div className={`container mx-4 sm:mx-auto px-5 ${isDarkMode ? 'bg-[#0F0F11]' : 'bg-[#F5F8FA]'} rounded-md p-10 grid grid-rows-1 md:grid-cols-4 gap-8 md:gap-0`}>
       {
         timeline.map(item => (
           <div className="flex flex-col text-center" key={item.id}>

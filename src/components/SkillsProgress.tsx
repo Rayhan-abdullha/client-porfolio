@@ -5,7 +5,7 @@ interface PropTypes {
 
 const SkillProgress = ({ skill, progress }: PropTypes) => {
   return (
-    <div className="mb-10">
+    <div className="">
       <div className="flex justify-between items-center">
         <span className="text-lg font-medium mb-2">{skill}</span>
         <span className="text-sm text-gray-500">{progress}%</span>

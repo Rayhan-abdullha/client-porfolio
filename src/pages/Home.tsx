@@ -12,8 +12,8 @@ const Home = () => {
             <Intro />
             <Expriences />
             <TimelineSection />
-            <Price />
             <MyWorks />
+            <Price />
             <Patner />
             <Reviews />
             <ContactMe />

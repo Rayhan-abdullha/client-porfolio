@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import introInfo from "../db/introData.json"
 const Intro = () => {
     return (
-        <div className="bg-[url('https://rainbowit.net/html/doob/assets/images/bg/bg-image-22.jpg')] h-[auto] md:h-[90vh] bg-center bg-fixed">
+        <div className="bg-[url('https://rainbowit.net/html/doob/assets/images/bg/bg-image-22.jpg')] h-auto sm:h-[100vh] bg-center bg-fixed">
             <div className="container mx-auto px-4 h-[100%] flex items-center py-8 md:py-0">
                 <div className="md:w-1/2 md:py-8">
                     <h1 className="text-white text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold">{introInfo.label}

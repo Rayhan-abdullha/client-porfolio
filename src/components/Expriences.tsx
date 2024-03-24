@@ -5,7 +5,7 @@ import { useTheme } from '../context/ThemeContext'
 function Expriences() {
     const { isDarkMode } = useTheme()
     return (
-        <div className='px-4 max-w-[800px] mx-auto pt-[120px] pb-5 md:pb-[60px] '>
+        <div className='px-4 max-w-[800px] mx-auto py-[60px] md:py-[120px]'>
             <div className={`flex flex-col items-center md:flex-row md:items-start gap-5 p-10 bg-gradient-to-br ${isDarkMode ? 'to-[#882b2b36] from-[#24c1d740]' : 'from-[#cfefff] to-[#fff5f5]'}`}>
                 <img className='self-start w-1/3' src={projectCompleted.logo} alt="notfound" />
                 <div className='w-full md:text-start'>
@@ -16,7 +16,7 @@ function Expriences() {
             </div>
 
             <h2 className={`${!isDarkMode ? 'border-[hsl(0deg 0% 41.89% / 10%])' : 'border-[hsla(0,0%,100%,0.1)]'} text-center md:text-start text-[30px] mt-12 md:text-[40px] font-bold border-b pb-5 mb-12 text-[#747474]`}>My Working Experience</h2>
-            <div className='mb-[60px]'>
+            <div className='flex flex-col gap-10'>
                 {
                     skills.map(skill => (
                         <SkillProgress key={skill.id} skill={skill.title} progress={skill.progress} />
