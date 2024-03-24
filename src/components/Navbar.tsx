@@ -48,12 +48,15 @@ const Navbar = () => {
                                         </li>
                                     ))
                                 }
+                                <li className='block sm:hidden'>
+                                    <Link className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-semibold" to="/">Buy Now</Link>
+                                </li>
                             </ul>
                         </nav>
                     </div>
 
                     <div className="right-section flex gap-5 items-center">
-                        <Link className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-semibold" to="/">Buy Now</Link>
+                        <Link className="hidden sm:block px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 text-white font-semibold" to="/">Buy Now</Link>
                         <svg onClick={handleNav} className="lg:hidden rounded-full text-white feather feather-menu cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" ><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                         <div className="bg-[#FB5343] p-2 rounded-full">
                             {

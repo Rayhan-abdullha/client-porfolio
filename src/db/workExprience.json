@@ -2,24 +2,28 @@
     "label": "My Work Experience",
     "skills": [
         {
-            "id": 1,
+            "id": "1",
             "title": "Product Designer",
-            "progress": "90"
+            "progress": "90",
+            "color": "blue"
         },
         {
-            "id": 2,
+            "id": "2",
             "title": "Web Development",
-            "progress": "70"
+            "progress": "70",
+            "color": "green"
         },
         {
-            "id": 3,
+            "id": "3",
             "title": "App Development",
-            "progress": "60"
+            "progress": "60",
+            "color": "red-400"
         },
         {
-            "id": 4,
+            "id": "4",
             "title": "Application Developement",
-            "progress": "45"
+            "progress": "45",
+            "color": "purple-400"
         }
     ],
     "projectCompleted": {

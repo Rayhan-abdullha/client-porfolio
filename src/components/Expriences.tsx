@@ -19,7 +19,7 @@ function Expriences() {
             <div className='flex flex-col gap-10'>
                 {
                     skills.map(skill => (
-                        <SkillProgress key={skill.id} skill={skill.title} progress={skill.progress} />
+                        <SkillProgress key={skill.id} skill={skill} />
                     ))
                 }
             </div>
