@@ -4,20 +4,23 @@
         "name": "Sr Janen Sara",
         "text": "“Proin libero vel lorem dui lupus est aliquet luctus purus justo eget libero sed lorem.„",
         "title": "Sr Product Designer",
-        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-01.jpg"
+        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-01.jpg",
+        "delay": "200"
     },
     {
         "id": 2,
         "name": "Afsana Nila",
         "text": "“Proin libero vel lorem dui lupus est aliquet luctus purus justo eget libero sed lorem.„",
         "title": "App Developer",
-        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-02.jpg"
+        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-02.jpg",
+        "delay": "300"
     },
     {
         "id": 3,
         "name": "Afanan Sifa",
         "text": "“Proin libero vel lorem dui lupus est aliquet luctus purus justo eget libero sed lorem.„",
         "title": "Accounts Manager",
-        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-03.jpg"
+        "url": "https://rainbowit.net/html/doob/assets/images/testimonial/testimonial-03.jpg",
+        "delay": "400"
     }
 ]

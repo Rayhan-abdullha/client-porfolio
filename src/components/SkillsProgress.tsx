@@ -16,6 +16,7 @@ const SkillProgress = ({ title, progress, color }: PropTypes) => {
       </div>
       <div className="bg-gray-200 rounded-full mt-2">
         <div
+          data-aos="zoom-in-right"
           style={{ backgroundColor: `${color}`, width: `${progress}%` }}
           className={`text-xs leading-none py-[3px] rounded-full transition-all duration-1000`}
         ></div>

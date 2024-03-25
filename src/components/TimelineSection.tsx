@@ -8,13 +8,13 @@ const TimelineSection = () => {
                 {
                     timeline.map((item, index: number) => (
                         <li className="relative mb-6 sm:mb-0 text-center" key={item.id}>
-                            <h3 className={`${isDarkMode ? 'text-white' : 'text-black'} text-[20px] font-medium`}>{item.title}</h3>
+                            <h3 data-aos="flip-up" className={`${isDarkMode ? 'text-white' : 'text-black'} text-[20px] font-medium`}>{item.title}</h3>
                             <div className="flex items-center justify-center">
                                 <div className={`my-5 flex justify-center items-center self-center doted w-7 h-7 ${isDarkMode ? 'bg-[#1E1E1E]' : 'bg-[#d8d8d8]'} rounded-full`}>
                                     <div className={`${index !== 3 && 'timeline-dot'} md:before:absolute ${isDarkMode ? 'before:bg-[#1e1e1e]' : 'before:bg-[#d8d8d8]'} w-3 h-3 bg-[#059dff] rounded-full`}></div>
                                 </div>
                             </div>
-                            <p className={`text-[17px] ${!isDarkMode ? 'text-[#65676b]' : 'text-gray-400'} px-10`}>{item.des}</p>
+                            <p data-aos="flip-up" className={`text-[17px] ${!isDarkMode ? 'text-[#65676b]' : 'text-gray-400'} px-10`}>{item.des}</p>
                         </li>
                     ))
                 }
