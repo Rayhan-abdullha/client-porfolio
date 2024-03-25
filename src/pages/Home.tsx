@@ -9,6 +9,10 @@ import TimelineSection from "../components/TimelineSection"
 const Home = () => {
     return (
         <>
+            <div>
+                <div className="rainbow-gradient-circle"></div>
+                <div className="rainbow-gradient-circle theme-pink"></div>
+            </div>
             <Intro />
             <Expriences />
             <TimelineSection />
