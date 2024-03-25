@@ -19,7 +19,7 @@
         {
             "id": 4,
             "label": "Your Message",
-            "type": "text"
+            "type": "textarea"
         }
     ],
     "socialLinks": [
