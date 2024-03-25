@@ -4,7 +4,7 @@ const Price = () => {
     const { isDarkMode } = useTheme()
     return (
         <div className="container mx-auto px-5 sm:px-12">
-            <h2 className={`${!isDarkMode ? 'border-[hsl(0deg 0% 41.89% / 10%])' : 'border-[hsla(0,0%,100%,0.1)]'} text-center md:text-start text-[30px] md:text-[40px] font-bold border-b pb-5 mb-12 text-[#747474]`}>My Pricing Plan</h2>
+            <h2 data-aos="flip-up" data-aos-delay="150" className={`${!isDarkMode ? 'border-[hsl(0deg 0% 41.89% / 10%])' : 'border-[hsla(0,0%,100%,0.1)]'} text-center md:text-start text-[30px] md:text-[40px] font-bold border-b pb-5 mb-12 text-[#747474]`}>My Pricing Plan</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center h-auto lg:h-[700px]">
                 {
                     priceData.map((item, index: number) => (
